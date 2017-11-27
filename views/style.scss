@@ -6,10 +6,8 @@ html {
   background-size: cover;
 }
 
-body {
-  background: #333;
-  color: #fff;
-  opacity: 0.8;
+.fb-like {
+  width: 70%;
 }
 
 .container {
@@ -19,6 +17,7 @@ body {
 }
 
 blockquote {
+  color: #fff;
   width: 70%;
   font-family: 'Amatic SC', cursive;
   font-size: 400%;
