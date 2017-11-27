@@ -1,0 +1,38 @@
+html {
+  background: url(images/bg1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: #333;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+  position: relative;
+}
+
+blockquote {
+  width: 70%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 400%;
+  letter-spacing: .075em;
+  float: left;
+  padding: 45px 0 30px 25px;
+  margin: 0;
+}
+
+blockquote:before {
+  color: #eee;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
